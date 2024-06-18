@@ -78,4 +78,4 @@ This method is ideal for developers, system administrators, and anyone who frequ
 - Another structure is provided in `create_GEB_structure.sh`. Modify the commands to give permission to execute this file/script, then execute this script.
 - A script is a file that contains a series of commands.
 - A command is a single instruction.
-- You can make this all into one script and execute it at once, but it’s cool to go into the terminal and run code from there.
+- You can make this all into one script and execute it at once, but it’s cool to go into the terminal and practice running code from there.
