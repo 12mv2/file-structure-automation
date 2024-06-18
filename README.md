@@ -10,6 +10,8 @@ Yo! In this tutorial, you'll learn how to create a file structure using a script
 
 This method is ideal for developers, system administrators, and anyone who frequently needs to set up directories and files in a consistent, repeatable manner. Save time and ensure accuracy by scripting your file structure creation!
 
+**Note: This repository is intended for macOS only, y'all are still our comrades Matt and Winston**
+
 ### 1. So first things first
 
 - Decide on your file structure (look at your syllabus, work schedule, etc.)
