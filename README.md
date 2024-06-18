@@ -13,24 +13,29 @@ This method is ideal for developers, system administrators, and anyone who frequ
 ### 1. So first things first
 
 - Decide on your file structure (look at your syllabus, work schedule, etc.)
-- One is provided in `create_simple_structure.sh` to experiment with
+- One is provided `create_simple_structure.sh` to experiment with
+- In the terminal you can make a .sh file by using touch```touch nameOfYourFile.sh``` 
+- Open and edit this .sh file using nano, the built in text editor for mac ```nano nameOfYourFile.sh```
 
 ### 2. Second things second
 
-- Navigate to the directory where you created the script. Use the first command to give permission to execute the `create_structure.sh` file, then run the second command to generate the file and directory layout:
+- Navigate to the directory where you created the .sh file / script. Use the first command to give permission to execute the `create_structure.sh` or `nameOfYourFile.sh` file, then run the second command to generate the file and directory layout:
 
     ```sh
     cd path/to/your/script
     chmod +x create_structure.sh
+    ```
+
+    ```sh
     ./create_structure.sh
     ```
 
-    > The first command makes the script executable, and the second command runs the script.
+    > The first command makes script executable, second runs the script.
 
 ### 3. Third things third
 
 - Look at your file structure in the GUI / Finder
-- Look at your file structure in the terminal using `tree -L 2 ~/Dev`
+- Look at your file structure in the terminal using tree (go to npm to download it and check it out) and command  `tree -L 2 ~/Dev`
 - Make a new structure if you don't like the current one and run the automation script on it (make sure to erase the last structure)
 
 ### Simple File Structure Provided
